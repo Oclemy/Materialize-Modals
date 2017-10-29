@@ -1,0 +1,119 @@
+<!--
+- Our html markup.
+- First we reference
+- Define our navigationbar.
+- Define content section. where we will have a button to display our modal when clicked.
+- Define footer
+- Import scripts
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Camposha.info </title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="assets/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+<body>
+<!--NAVIGATION BAR-->
+<nav class="light-blue lighten-1" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="" class="brand-logo">Camposha.info</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+        <a href="" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+</nav>
+
+<!--CONTAINER-->
+<div class="container">
+    <h3 class="header center orange-text">Javascript Materialize Modals</h3>
+    <h5 class="center light-blue-text"><i>Materialize Modals with header, footer and Callbacks</i></h5>
+
+    <p class="left">Modals can be used for dialog boxes, confirmation messages, or other content that can be called up. In order for the modal
+        to work you have to add the Modal ID to the link of the trigger. To add a close button, just add the class .modal-close
+        to your button.</p>
+    <div class="center">
+        <!-- Modal Trigger -->
+        <button data-target="modal1" class="btn center modal-trigger">Open Modal</button>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content">
+            <!--Modal header-->
+            <h4>Cosmos Redshift(CR7)</h4>
+
+            <!--Modal content-->
+            <p>Cosmos Redshift 7 (also known as COSMOS Redshift 7, Galaxy Cosmos Redshift 7, Galaxy CR7 or CR7) is
+                a high-redshift Lyman-alpha emitter galaxy (meaning CR7 is one of the oldest, most distant galaxies),
+                in the constellation Sextans, about 12.9 billion light travel distance years from Earth, reported to
+                contain the first stars (first generation; Population III)—formed soon after the Big Bang during the
+                reionisation epoch (redshift, z ∼ 6−7),[1] when the Universe was about 800 million years old—to have
+                provided the chemical elements (like oxygen, nitrogen, carbon, calcium and iron) needed for the later
+                formation of planets and life as it is known.</p>
+            <img src="assets/img/cosmos_redshift.jpg">
+            <p>Galaxy Cosmos Redshift 7 is reported to be three times brighter than the brightest distant galaxy known
+                up to the time of its discovery and to contain some of the earliest first stars that produced the chemical
+                elements needed for the later formation of planets and life as it is known</p>
+        </div>
+        <!--Modal Footer-->
+        <div class="orange modal-footer">
+            <a href="#!" id="agreeBtn" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+            <a href="#!" id="disagreeBtn"
+               class="modal-action modal-close waves-effect waves-green btn-flat ">Disagree</a>
+
+        </div>
+    </div>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!--FOOTER-->
+<footer class="page-footer orange">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Company Bio</h5>
+
+                <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's
+                    our full time job.</p>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Languages</h5>
+                <ul>
+                    <li><a class="white-text" href="#!">Javascript</a></li>
+                    <li><a class="white-text" href="#!">PHP</a></li>
+                    <li><a class="white-text" href="#!">Java</a></li>
+                    <li><a class="white-text" href="#!">C#</a></li>
+                </ul>
+            </div>
+            <div class="col l3 s12">
+                <h5 class="white-text">Connect</h5>
+                <ul>
+                    <li><a class="white-text" href="#!">Facebook</a></li>
+                    <li><a class="white-text" href="#!">Twitter</a></li>
+                    <li><a class="white-text" href="#!">Google Plus</a></li>
+                    <li><a class="white-text" href="#!">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--REFERENCE SCRIPTS-->
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/materialize.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
